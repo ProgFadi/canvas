@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="142" height="47" viewBox="0 0 142 47">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #393939;
+        font-size: 35px;
+        font-family: OpenSans-Bold, Open Sans;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <text id="CANVAS-black" class="cls-1" transform="translate(0 37)"><tspan x="0" y="0">CANVAS</tspan></text>
+</svg>

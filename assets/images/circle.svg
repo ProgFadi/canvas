@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="533" height="533" viewBox="0 0 533 533">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #393939;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        stroke: #707070;
+      }
+
+      .cls-3 {
+        fill: #28544b;
+        font-size: 115px;
+        font-family: IndieFlower, Indie Flower;
+      }
+
+      .cls-4 {
+        fill: #acbd86;
+      }
+
+      .cls-5 {
+        fill: #ffd6a0;
+      }
+
+      .cls-6 {
+        fill: #ffa06f;
+      }
+
+      .cls-7 {
+        stroke: none;
+      }
+
+      .cls-8 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="circle" transform="translate(-992.377 -4499.489)">
+    <circle id="Ellipse_1" data-name="Ellipse 1" class="cls-1" cx="266.5" cy="266.5" r="266.5" transform="translate(992.377 4499.489)"/>
+    <g id="Logo" transform="translate(1035.377 4668.489)">
+      <g id="Group_15" data-name="Group 15" transform="translate(0 0)">
+        <g id="Group_16" data-name="Group 16">
+          <g id="Rectangle_10" data-name="Rectangle 10" class="cls-2" transform="translate(0 0)">
+            <rect class="cls-7" width="170" height="196" rx="58"/>
+            <rect class="cls-8" x="0.5" y="0.5" width="169" height="195" rx="57.5"/>
+          </g>
+          <text id="CA_NVAS" data-name="CA NVAS" class="cls-3" transform="translate(22 138)"><tspan x="0" y="0">CA </tspan><tspan class="cls-4" y="0">N</tspan><tspan class="cls-5" y="0">V</tspan><tspan class="cls-6" y="0">AS</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/signup.css">
+  
+    <title>Sign Up</title>
+</head>
+<body>
+    <div>
+        <form id="signup-form" method="POST" action="/php-scripts/signup.php" enctype="multipart/form-data">
+            <img src="./assets/images/logo.svg"/>
+            <div id="inputs-div">
+                <div id="up-div">
+                    <input required minlength="4" class="input-style" type="text" id="full_name" name="full_name" placeholder="Full Name"/>
+                
+                    <input required minlength="4" class="input-style" type="text" id="username" name="username" placeholder="Username"/>
+                    <input required minlength="4" class="input-style" type="password" id="password" name="password" placeholder="Password"/>
+                    <input required minlength="4" class="input-style" type="password" id="password_conf" name="password_conf" placeholder="Confirm Password"/>
+                    <input required class="input-style" type="date" id="birth" name="birth" placeholder="Your birth"/>
+                    <label for="art_types">Art Types:<span class="required-input">*</span></label>
+                    <select class="form-control" name="art_types" id="art_types">
+                      <option value="Modernism">Modernism</option>
+                      <option value="Impressionism">Impressionism</option>
+                      <option value="Expressionism">Expressionism</option>
+                      <option value="Surrealism">Surrealism</option>
+                    </select>
+                    <input  minlength="4" class="input-style" type="text" id="experience" name="experience" placeholder="Experience"/>
+                    <label for="painter_image" >
+                        <img width="80px" height="100px" src="./assets/images/painter.jpg" />
+                        <input  style="display:none;" type="file" name="painter_image"  id="painter_image" accept="image/*">
+                        </label>
+                </div>
+                
+                <input id="signup-btn" type="submit" value="Sign up"/>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

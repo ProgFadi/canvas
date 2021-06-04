@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Open Sans';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../assets/fonts/open-sans/OpenSans-Regular.ttf')  format('truetype');
+        
+  }
+  @font-face {
+    font-family: 'Open Sans';
+    font-weight: bold;
+    font-style: normal;
+    src: url('../assets/fonts/open-sans/OpenSans-Bold.ttf')  format('truetype');
+        
+  }
+
+  @font-face {
+    font-family: 'Indie Flower';
+    src: url('../assets/fonts/indie-flower/IndieFlower-Regular.ttf')  format('truetype');
+        
+}
+
+html, body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans';
+}
+/* commonly used */
+.margin-sides{
+    width: 76%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.header-active{
+    background-color: #fff;;
+}
+
+.tm{
+  margin-top:100px;
+}
+
+.fit-hv{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center-content-to-section{
+align-items: center;
+}
+
+#btn-gallery{
+  background-color: white;
+  font-family: 'Open Sans';
+  border: none;
+  border-radius: 5px;
+}
